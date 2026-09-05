@@ -10,7 +10,7 @@
 
 - Recherche une occurrence dans les fichiers suivis d'après un schéma d'expansion de fichier :
 
-`git grep {{chaine_recherché}} -- "{{*.ext}}"`
+`git grep "{{chaine_recherché}}" -- "{{*.ext}}"`
 
 - Recherche une occurrence dans les fichiers suivis et les sous-modules :
 
