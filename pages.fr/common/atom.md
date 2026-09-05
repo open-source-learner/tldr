@@ -2,6 +2,7 @@
 
 > Un éditeur de texte multiplateforme proposant de nombreuses extensions.
 > Les extensions sont gérées par `apm`.
+> Remarque : Atom a été abandonné et n’est plus activement maintenu. Utiliser `zed` à la place.
 > Plus d'informations : <https://atom.io/>.
 
 - Ouvre un fichier ou un dossier :
