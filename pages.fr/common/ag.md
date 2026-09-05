@@ -15,7 +15,7 @@
 
 `ag {{[-l|--files-with-matches]}} string`
 
-- Trouve les fichiers qui contiennent "STRING" en étant insensible à la casse et affiche que le résultat plutôt que la ligne entière :
+- Trouve les fichiers qui contiennent `STRING` en étant insensible à la casse et affiche que le résultat plutôt que la ligne entière :
 
 `ag {{[-i|--ignore-case]}} {{[-o|--only-matching]}} STRING`
 
