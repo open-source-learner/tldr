@@ -4,15 +4,15 @@
 > Certaines sous-commandes comme `build` ont leurs propres documentations.
 > Plus d'informations : <https://doc.rust-lang.org/stable/cargo/>.
 
-- Rechercher des crates :
+- Recherche des crates :
 
 `cargo search {{recherche}}`
 
-- Installer un crate :
+- Installe un crate :
 
 `cargo install {{nom_du_crate}}`
 
-- Lister les crates déjà installés :
+- Liste les crates déjà installés :
 
 `cargo install --list`
 
@@ -24,10 +24,10 @@
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
-- Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
+- Compile le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
 `cargo +nightly {{[b|build]}}`
 
-- Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
+- Compile en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
 
 `cargo {{[b|build]}} {{[-j|--jobs]}} {{nombre_de_threads}}`
