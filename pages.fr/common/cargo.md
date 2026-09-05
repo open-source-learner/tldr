@@ -20,14 +20,18 @@
 
 `cargo init --{{bin|lib}} {{chemin/vers/dossier}}`
 
+- Ajoute une dépendance à `Cargo.toml` dans le dossier actuel :
+
+`cargo add {{dépendance}}`
+
 - Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
 `cargo {{[b|build]}} {{[-r|--release]}}`
 
+- Exécute le binaire compilé (le compile s’il ne l’est pas déjà) :
+
+`cargo {{[r|run]}}`
+
 - Compile le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
 `cargo +nightly {{[b|build]}}`
-
-- Compile en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
-
-`cargo {{[b|build]}} {{[-j|--jobs]}} {{nombre_de_threads}}`
