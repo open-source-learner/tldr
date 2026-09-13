@@ -14,7 +14,7 @@
 
 - Analyse un fichier spécifique :
 
-`alex {{fichiertexte.md}}`
+`alex {{chemin/vers/fichier.md}}`
 
 - Analyse tous les fichiers Markdown sauf `exemple.md` :
 
