@@ -22,7 +22,7 @@
 
 - Only show sockets of the specified `user_id` or user:
 
-`sockstat -U {{user_id|user_name}}`
+`sockstat -U {{user_id|username}}`
 
 - Only show sockets of the specified `group_id` or group:
 
