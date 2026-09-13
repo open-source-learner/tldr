@@ -18,12 +18,12 @@
 
 - Only show sockets of the specified `process_id` or process:
 
-`sockstat -P {{process_id|process}}`
+`sockstat -P {{process_id|process_name}}`
 
 - Only show sockets of the specified `user_id` or user:
 
-`sockstat -U {{user_id|user}}`
+`sockstat -U {{user_id|user_name}}`
 
 - Only show sockets of the specified `group_id` or group:
 
-`sockstat -G {{group_id|group}}`
+`sockstat -G {{group_id|group_name}}`
